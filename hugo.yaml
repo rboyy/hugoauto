@@ -15,6 +15,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+
 minify:
   disableXML: false
   minifyOutput: true
@@ -41,7 +42,24 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
+
   comments: true
+  giscus:
+  repo: "rboyy/giscus-"
+  repoId: "R_kgDOSr_Htg"
+  category: "Announcements"
+  categoryId: "DIC_kwDOSr_Hts4C-Ihb"
+  mapping: "pathname"
+  strict: "0"
+  reactionsEnabled: "1"
+  emitMetadata: "0"
+  inputPosition: "top"
+  lightTheme: "light"
+  darkTheme: "dark"
+  lang: "zh-CN"
+  discussionTitle: "" # 按需填写，评论框上方的标题
+  discussionSubtitle: "" # 按需填写，评论框上方的副标题
+
   hidemeta: false
   hideSummary: false
   showtoc: false
@@ -122,21 +140,25 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - name: "📝 博客"
+      url: "/blog/"
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - name: "🔍 搜索"
+      url: "/search/"
       weight: 20
-    -  #identifier: example
-       #name: example.org
-       #url: https://example.org
-       #weight: 30
-    - name: 搜索
-      url: /search
+    - name: "📂 归档"
+      url: "/archives/"
       weight: 30
+    - name: "👤 关于"
+      url: "/about/"
+      weight: 40
+    # 👇 破坏最小，直接在最末尾追加这两项（注意缩进和上面保持完全一致）
+    - name: "🏷️ 标签"
+      url: "/tags/"
+      weight: 50
+    - name: "🗂️ 分类"
+      url: "/categories/"
+      weight: 60
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
@@ -147,3 +169,4 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+port: 13131

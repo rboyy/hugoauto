@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/关于我.md",
+                "file": "templates/Hugo Post Template.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "关于我"
+              "title": "Hugo Post Template"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/关于我.md",
+                "file": "templates/Hugo Post Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "关于我 的反向链接列表"
+              "title": "Hugo Post Template 的反向链接列表"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/关于我.md",
+                "file": "templates/Hugo Post Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "关于我 的出链列表"
+              "title": "Hugo Post Template 的出链列表"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/关于我.md",
+                "file": "templates/Hugo Post Template.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "关于我 的大纲"
+              "title": "Hugo Post Template 的大纲"
             }
           }
         ]
@@ -200,19 +200,19 @@
   },
   "active": "827ef0347a681f4f",
   "lastOpenFiles": [
+    "content/posts/关于我.md",
+    "public/posts/20260530-关于我/index.html",
+    "public/posts/20260530-关于我",
+    "public/posts/关于我/index.html",
+    "public/posts/关于我",
+    "public/archives/index.html",
+    "public/archives",
+    "content/archives.md",
     "layouts/partials/comments.html",
     "layouts/partials",
     "public/assets/css/stylesheet.f583e1ce4978d58b1e6aba9c4b634ef62c7603a0f458437c8a2468f8be675ed8.css",
     "public/assets/css/stylesheet.9f88a95b2ce101591a9e3c8e6de293df2e89d53bdd9c1dd710146236ef6d4efd.css",
-    "themes/PaperMod/assets/css/extended/comments.css",
-    "public/index.json",
-    "public/assets/js/search.8c59121dc25bb7ca0064b43389b2deeaf2e95dfc3937b7455464dcd5920f7515.js",
-    "public/assets/js",
-    "public/search/index.html",
-    "public/search",
     "content/search.md",
-    "未命名.base",
-    "content/posts/关于我.md",
     "templates/Hugo Post Template.md",
     "content/posts/ceshi.md",
     "content/posts/测试一下.md",

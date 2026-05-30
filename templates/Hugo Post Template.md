@@ -1,7 +1,7 @@
 ---
 title: "{{title}}"
 date: "{{date}}"
-slug: blog-post-slug
+slug:
 tags:
   - 标签
 categories:
