@@ -119,9 +119,10 @@ params:
 
   cover:
   image: "https://jacob-1256058189.cos.ap-guangzhou.myqcloud.com/md/2024/08/d535bf1f2d4be47d.webp"
-  hidden: true       # 🟢 改成 false，允许显示！
-  hiddenInList: true    # 首页列表不隐藏
+  hidden: true      # 🟢 改成 false，允许显示！
+  hiddenInList: true   # 首页列表不隐藏
   hiddenInSingle: true  # 文章内页不隐藏
+  
   
   editPost:
     URL: "https://github.com/<path_to_repo>/content"

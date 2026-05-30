@@ -62,23 +62,9 @@
               "icon": "lucide-file",
               "title": "关于我"
             }
-          },
-          {
-            "id": "de89ae8038bc14cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/关于我.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "关于我"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -194,20 +180,6 @@
             }
           },
           {
-            "id": "6cc441a60a9e8d29",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "添加笔记属性"
-            }
-          },
-          {
             "id": "66a7991dae3ef58e",
             "type": "leaf",
             "state": {
@@ -240,29 +212,36 @@
       "bases:新建数据库": false
     }
   },
-  "active": "de89ae8038bc14cc",
+  "active": "1b6ca7f58e8fe98d",
   "lastOpenFiles": [
-    "content/posts/ceshi.md",
     "content/posts/未命名 1.md",
+    "content/posts/ceshi.md",
+    "public/assets/css/stylesheet.71b76462f13def32957802f4368dea69cbcd35d39f1457a58d5f2f63bbfac0b5.css",
+    "public/assets/css/stylesheet.41dc922274a3536531d31ca263a0bed9cdb82bf3a2c15144fb054fcf189da8b2.css",
+    "assets/css/extended/custom-cover.css",
+    "public/blog/page/1/index.html",
+    "public/blog/page/1",
+    "public/blog/page",
+    "public/blog/index.xml",
+    "public/blog/index.html",
+    "public/blog",
+    "content/posts/_index.md",
+    "public/assets/css/stylesheet.270e2243e068a10a288b273dbcbd7b39fc9a8878c4eef7248ca2a7fa99c1610a.css",
     "content/posts/关于我.md",
+    "templates/Blog模版.md",
     "content/posts/未命名.md",
-    "public/posts/未命名-1/index.html",
-    "public/posts/未命名-1",
-    "themes/hugo-PaperMod/layouts/_partials/templates/_funcs/get-page-images.html",
-    "themes/hugo-PaperMod/layouts/_partials/templates/twitter_cards.html",
-    "themes/hugo-PaperMod/layouts/_partials/templates/schema_json.html",
-    "themes/hugo-PaperMod/layouts/_partials/templates/opengraph.html",
-    "themes/hugo-PaperMod/layouts/_partials/templates/_funcs",
-    "themes/hugo-PaperMod/assets/css/includes/chroma-styles.css",
-    "themes/hugo-PaperMod/assets/css/includes/chroma-mod.css",
-    "themes/hugo-PaperMod/assets/css/core/zmedia.css",
+    "content/posts/index.md",
+    "content/posts/你的文件名.md",
+    "content/posts/index.测试.md",
+    "content/posts/index.ni.md",
+    "content/posts/ni.md",
+    "myblog/archetypes/default.md",
     "themes/hugo-PaperMod/images/tn.png",
     "themes/hugo-PaperMod/images/screenshot.png",
     "themes/hugo-PaperMod/README.md",
     "hugo-PaperMod/images/tn.png",
     "hugo-PaperMod/images/screenshot.png",
     "hugo-PaperMod/README.md",
-    "templates/Blog模版.md",
     "content/archives.md",
     "content/search.md",
     "content/posts/未最最最最最后再测试一次1.md",
