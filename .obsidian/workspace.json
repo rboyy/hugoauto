@@ -1,0 +1,274 @@
+{
+  "main": {
+    "id": "953b009112457600",
+    "type": "split",
+    "children": [
+      {
+        "id": "9bf55943682ced39",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff63cdaef41a5256",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/Blog模版.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Blog模版"
+            }
+          },
+          {
+            "id": "827ef0347a681f4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/关于我.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "关于我"
+            }
+          },
+          {
+            "id": "235ab06672c14811",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/关于我.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "关于我"
+            }
+          },
+          {
+            "id": "44989b7e7611cb3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/关于我1.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "关于我1"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ac0fc5400d1bc216",
+    "type": "split",
+    "children": [
+      {
+        "id": "496b32b391255bb0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1b6ca7f58e8fe98d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "9e1351cba329465e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "1f0c709412c5b3af",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3917df68dee2215b",
+    "type": "split",
+    "children": [
+      {
+        "id": "a82f2c02de61c17d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7204866d86b7248a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/posts/关于我.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "关于我 的反向链接列表"
+            }
+          },
+          {
+            "id": "d2728189d349db30",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/posts/关于我.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "关于我 的出链列表"
+            }
+          },
+          {
+            "id": "994e234c20f5f2a3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "66a7991dae3ef58e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/posts/关于我.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "关于我 的大纲"
+            }
+          },
+          {
+            "id": "a2e689ca26fc03cc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "44989b7e7611cb3f",
+  "lastOpenFiles": [
+    "archetypes/Blog模版.md",
+    "public/posts/blog模版/index.html",
+    "public/posts/blog模版",
+    "content/posts/Blog模版.md",
+    "public/images/ce.webp",
+    "static/images/ce.webp",
+    "public/images/d535bf1f2d4be47d (7).webp",
+    "static/images/d535bf1f2d4be47d (7).webp",
+    "COVER_GUIDE.md",
+    "public/images",
+    "static/images",
+    "templates/Blog模版.md",
+    "content/posts/关于我1.md",
+    "public/posts/关于我1/index.html",
+    "public/posts/关于我1",
+    "content/posts/未命名 1.md",
+    "content/posts/ceshi.md",
+    "public/assets/css/stylesheet.71b76462f13def32957802f4368dea69cbcd35d39f1457a58d5f2f63bbfac0b5.css",
+    "public/assets/css/stylesheet.41dc922274a3536531d31ca263a0bed9cdb82bf3a2c15144fb054fcf189da8b2.css",
+    "assets/css/extended/custom-cover.css",
+    "public/blog/page/1/index.html",
+    "content/posts/_index.md",
+    "content/posts/未命名.md",
+    "content/posts/index.md",
+    "content/posts/你的文件名.md",
+    "content/posts/index.测试.md",
+    "content/posts/index.ni.md",
+    "content/posts/ni.md",
+    "myblog/archetypes/default.md",
+    "themes/hugo-PaperMod/images/tn.png",
+    "themes/hugo-PaperMod/images/screenshot.png",
+    "themes/hugo-PaperMod/README.md",
+    "hugo-PaperMod/images/tn.png",
+    "hugo-PaperMod/images/screenshot.png",
+    "hugo-PaperMod/README.md",
+    "content/archives.md",
+    "content/search.md",
+    "content/posts/未最最最最最后再测试一次1.md",
+    "content/posts/测试机2.md",
+    "content/posts/最后测试一下文章发布功能.md",
+    "回收站.md",
+    "content/posts/hello-world.md"
+  ]
+}
