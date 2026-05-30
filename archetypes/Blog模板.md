@@ -1,28 +1,23 @@
 ---
-title: 关于我1
+title:
 date: 2026-05-30
 slug:
 tags:
-  - 标签
 categories:
   - 分类
 description: 描述
 summary: 摘要
 cover:
-  image: "/images/ce.webp"
+  image: ""
   hidden: false
   hiddenInList: false
   hiddenInSingle: false
-share: "true"
----
-
-
-
-从这里开始撰写正文……
-
-
-share: false
+draft: false
+share: true
 ---
 
 从这里开始撰写正文……
 
+## 参考文献
+
+- 参考文献 1

@@ -4,6 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "cover": "text",
-    "cover.relative": "checkbox"
+    "cover.relative": "checkbox",
+    "date": "date"
   }
 }
