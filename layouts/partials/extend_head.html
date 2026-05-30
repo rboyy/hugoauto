@@ -1,0 +1,38 @@
+<script>
+// 图片懒加载增强 -Intersection Observer API
+document.addEventListener("DOMContentLoaded", function() {
+  // 检测浏览器是否支持 Intersection Observer
+  if ("IntersectionObserver" in window) {
+    const imageObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const img = entry.target;
+          // 如果图片还没有loaded类，添加它实现淡入效果
+          if (img.complete) {
+            img.classList.add("loaded");
+          } else {
+            img.onload = function() {
+              img.classList.add("loaded");
+            };
+          }
+          // 停止观察这个图片
+          observer.unobserve(img);
+        }
+      });
+    }, {
+      rootMargin: "50px 0px", // 提前50px开始加载
+      threshold: 0.01
+    });
+
+    // 观察所有封面图片
+    document.querySelectorAll(".entry-cover img").forEach(img => {
+      imageObserver.observe(img);
+    });
+  } else {
+    // 如果浏览器不支持 Intersection Observer，直接显示所有图片
+    document.querySelectorAll(".entry-cover img").forEach(img => {
+      img.classList.add("loaded");
+    });
+  }
+});
+</script>

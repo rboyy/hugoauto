@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/RBoy的折腾日记00 - 装了一台HP EliteDesk 800 G3 TWR品牌机黑群晖.md",
+                "file": "content/posts/2024好用又划算的流量卡.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RBoy的折腾日记00 - 装了一台HP EliteDesk 800 G3 TWR品牌机黑群晖"
+              "title": "2024好用又划算的流量卡"
             }
           }
         ],
@@ -228,7 +228,13 @@
   },
   "active": "44989b7e7611cb3f",
   "lastOpenFiles": [
+    "layouts/partials/extend_head.html",
+    "public/assets/css/stylesheet.629c328775f3f6fd846aeaec39cf8b4659d981bdea5cbf4a0502561d27fbefbc.css",
+    "assets/css/extended/lazy-load.css",
     "content/about.md",
+    "content/archives.md",
+    "content/search.md",
+    "content/posts/RBoy的折腾日记00 - 装了一台HP EliteDesk 800 G3 TWR品牌机黑群晖.md",
     "assets/css/extended/custom-cover.css",
     "content/categories/_index.md",
     "content/categories",
@@ -239,11 +245,8 @@
     "public/assets/css/stylesheet.f6031b22655d98d55bf905679d9ad7ba83fc3c33ba5f562deae6cb0f6f32f31b.css",
     "public/assets/css/stylesheet.770559e357c1fbd8f0710b8bb8f001042b1aa6ec29661c4ea92dcc44be215ead.css",
     "public/assets/css/stylesheet.6cb55a69c3872f601e99df6518f5746bcaa3293070c3427896ce8d6be97ec0fe.css",
-    "public/assets/css/stylesheet.fb18da1920f345cfb3db851ad6f58fc43c1bfcfc7b98a2c77ad71e925b179310.css",
-    "public/assets/css/stylesheet.028f2c9e04d9ed1f4a7d727af317129c2d22c833157ebb1e89d7f0928800ec24.css",
     "RBoyBlogbackup-main/cltvpsmn3000308jwgtjyd5k8.md",
     "RBoyBlogbackup-main/cm00s4whi00040alh7076d52k.md",
-    "content/posts/RBoy的折腾日记00 - 装了一台HP EliteDesk 800 G3 TWR品牌机黑群晖.md",
     "RBoyBlogbackup-main/clsyf20x8000508jlgd932h0r.md",
     "RBoyBlogbackup-main/clsx9ui43000309lf91du8uib.md",
     "RBoyBlogbackup-main/clstpgr9z000208i7c52dckuk.md",
@@ -261,8 +264,6 @@
     "templates/Blog模版.md",
     "archetypes/default.md",
     "archetypes/post.md",
-    "content/posts/ce s.md",
-    "templates/AI.md",
     "public/images/ce.webp",
     "static/images/ce.webp",
     "public/images/d535bf1f2d4be47d (7).webp",

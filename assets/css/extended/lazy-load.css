@@ -1,0 +1,19 @@
+/* 图片性能优化 - 懒加载占位效果 */
+.entry-cover img {
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* 懒加载占位效果 - 加载前显示浅色背景 */
+.post-entry:has(.entry-cover) {
+  background: linear-gradient(135deg, #f6f8fa 0%, #e9ecef 100%);
+}
+
+/* 封面图片加载完成后淡入 */
+.entry-cover img.loaded {
+  opacity: 1;
+}
+
+/* 封面图片初始状态 - 轻微模糊过渡 */
+.entry-cover img:not(.loaded) {
+  opacity: 0.8;
+}
