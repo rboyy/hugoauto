@@ -12,7 +12,7 @@ cover:
   image: <image path/url>
 ---
 
-这里是摘要……
+这里不是生生世世是摘要……
 
 <!-- more -->
 
