@@ -1,8 +1,14 @@
 baseURL: "https://rboyy.github.io/"
-title: Rboy Blog
+title: RBoy Blog
 paginate: 10
 theme: PaperMod
 copyright: ©2026-2026 [Rboy Blog](https://rboyy.github.io/)  # 页脚
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -10,18 +16,18 @@ buildFuture: false
 buildExpired: false
 
 minify:
-  disableXML: true
+  disableXML: false
   minifyOutput: true
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  title: RBoy Blog
+  description: "瑞Boy的个人Blog"
+  keywords: [RBoy,瑞Boy,Blog, Portfolio, PaperMod]
+  author: RBoy
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+  DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -35,7 +41,7 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: false
@@ -72,7 +78,7 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
+    Title: "你好，我是 RBoy \U0001F44B"
     Content: Welcome to my blog
 
   socialIcons:
@@ -80,12 +86,14 @@ params:
       url: "https://x.com/"
     - name: stackoverflow
       url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
+    - name: "email"
+      url: "mailto:rboyblog@gmail.com"    # 邮箱联系
+    - name: "Rss"
+      url: "index.xml"     # RSS 订阅
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "y9lPsm7f_ojqFp_GITmc2dlgZKvS4evGRASjd1PaZyk"
     bing:
       SiteVerificationTag: "XYZabc"
     yandex:
@@ -122,9 +130,12 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
+    -  #identifier: example
+       #name: example.org
+       #url: https://example.org
+       #weight: 30
+    - name: 搜索
+      url: /search
       weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
