@@ -16,7 +16,7 @@ cover:
 draft: false
 share: true
 ---
-
+	 
 因为路由器也插在UPS上，我用家里的小爱音箱Pro作为目标ip，记得去路由器后台设置静态DHCP，防止小爱的IP乱变。
 
 REM应该是注释，可以ping两个设备，我就ping一个吧，第二个不动（默认注释掉了）
