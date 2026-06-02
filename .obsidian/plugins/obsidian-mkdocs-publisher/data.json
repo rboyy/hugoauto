@@ -97,7 +97,9 @@
     "shareKey": "share",
     "fileMenu": false,
     "editorMenu": false,
-    "excludedFolder": [],
+    "excludedFolder": [
+      "archetypes"
+    ],
     "copyLink": {
       "enable": false,
       "links": "",
@@ -114,5 +116,5 @@
     "setFrontmatterKey": "Set",
     "migrated": true
   },
-  "tabsId": "github-configuration"
+  "tabsId": "plugin-settings"
 }

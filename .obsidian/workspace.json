@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/Blog模版.md",
+                "file": "content/posts/2024好用又划算的流量卡.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Blog模版"
+              "title": "2024好用又划算的流量卡"
             }
           },
           {
@@ -57,14 +57,13 @@
               "state": {
                 "file": "content/posts/非智能UPS windows自动关机脚本.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "非智能UPS windows自动关机脚本"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -226,13 +225,22 @@
       "bases:新建数据库": false
     }
   },
-  "active": "44989b7e7611cb3f",
+  "active": "ff63cdaef41a5256",
   "lastOpenFiles": [
+    "archetypes/Blog模板.md",
+    "2026-05-30.md",
+    "content/posts/非智能UPS_Windows自动关机脚本.md",
+    "manifest.json",
+    "main.js",
+    "DYEtpI_VwAAE2ys.jpg",
     "content/posts/2024好用又划算的流量卡.md",
+    "content/posts/RBoy的折腾日记00 - 装了一台HP EliteDesk 800 G3 TWR品牌机黑群晖.md",
+    "templates/Blog模版.md",
+    "DYEtg_WU0AA2oOe.jpg",
+    "DYEtwj6VQAId1C_.jpg",
     "content/posts/手机大流量卡.md",
     "content/posts/未命名测.md",
     "content/posts/如何保存adb授权.md",
-    "content/posts/非智能UPS windows自动关机脚本.md",
     "content/posts/关于我.md",
     "public/tags/windows/page/1/index.html",
     "public/tags/windows/page/1",
@@ -245,9 +253,6 @@
     "content/about.md",
     "content/archives.md",
     "content/search.md",
-    "content/posts/RBoy的折腾日记00 - 装了一台HP EliteDesk 800 G3 TWR品牌机黑群晖.md",
-    "public/posts/未命名测/index.html",
-    "public/posts/未命名测",
     "public/images/ce.webp",
     "content/categories/_index.md",
     "content/tags/_index.md",
@@ -262,14 +267,11 @@
     "RBoyBlogbackup-main/clssm7rof000e08jkc62ub1rt.md",
     "RBoyBlogbackup-main/clssm3otb000509kwgtt39w00.md",
     "content/posts/如何保存ADB授权.md",
-    "archetypes/Blog模板.md",
-    "templates/Blog模版.md",
     "static/images/ce.webp",
     "public/images/d535bf1f2d4be47d (7).webp",
     "static/images/d535bf1f2d4be47d (7).webp",
     "themes/hugo-PaperMod/images/tn.png",
     "themes/hugo-PaperMod/images/screenshot.png",
-    "hugo-PaperMod/images/tn.png",
-    "hugo-PaperMod/images/screenshot.png"
+    "hugo-PaperMod/images/tn.png"
   ]
 }
