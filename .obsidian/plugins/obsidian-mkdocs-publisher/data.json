@@ -98,7 +98,10 @@
     "fileMenu": false,
     "editorMenu": false,
     "excludedFolder": [
-      "archetypes"
+      "archetypes",
+      "public",
+      "resources",
+      "hugo_build.lock"
     ],
     "copyLink": {
       "enable": false,
