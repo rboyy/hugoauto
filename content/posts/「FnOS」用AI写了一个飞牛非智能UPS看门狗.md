@@ -36,5 +36,5 @@ share: true
 下载安装地址：[https://github.com/rboyy/fnos_ups](https://github.com/rboyy/fnos_ups)
 
 ## 参考文献
-
+- [《# 自己动手，丰衣足食，使用非智能UPS，停电时实现飞牛NAS自动关机。》]([https://club.fnnas.com/forum.php?mod=viewthread&tid=14656](https://club.fnnas.com/forum.php?mod=viewthread&tid=27600))
 - [《开发非智能交互UPS自动关机套件》](https://club.fnnas.com/forum.php?mod=viewthread&tid=14656)
