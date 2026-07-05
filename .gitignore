@@ -1,0 +1,9 @@
+public
+resources
+.hugo_build.lock
+# 屏蔽 obsidian模板目录
+archetypes
+# Obsidian 插件源码（含第三方凭据）
+.obsidian/plugins/
+# macOS 元数据
+.DS_Store

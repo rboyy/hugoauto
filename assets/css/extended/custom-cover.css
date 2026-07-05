@@ -1,0 +1,273 @@
+/* 增强悬停效果 - 对所有文章生效 */
+.post-entry {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.post-entry:hover,
+.post-entry:focus-within {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* ==================== 有封面的文章 ==================== */
+
+/* 强制显示有封面的 tag-entry 的封面 */
+.tag-entry:has(.entry-cover) .entry-cover {
+  display: flex !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+  z-index: 1;
+}
+
+.tag-entry:has(.entry-cover) .entry-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  border-radius: 0;
+}
+
+/* 有封面的 tag-entry 卡片样式 */
+.post-entry.tag-entry:has(.entry-cover) {
+  position: relative !important;
+  overflow: hidden !important;
+  border-radius: 18px !important;
+  padding: 0 !important;
+  margin-bottom: 16px !important;
+  background: transparent !important;
+  border: none !important;
+}
+
+/* 有封面的 tag-entry 文字区域 - 毛玻璃效果 + 白色文字 */
+.tag-entry:has(.entry-cover) .entry-header,
+.tag-entry:has(.entry-cover) .entry-content,
+.tag-entry:has(.entry-cover) .entry-footer {
+  position: relative !important;
+  z-index: 2 !important;
+  background: rgba(255, 255, 255, 0.18) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  border-radius: 16px !important;
+  display: block !important;
+  float: left !important;
+  clear: both !important;
+  max-width: calc(100% - 40px) !important;
+  box-sizing: border-box !important;
+}
+
+.tag-entry:has(.entry-cover) .entry-header {
+  padding: 12px 16px !important;
+  margin: 20px 20px 10px 20px !important;
+}
+
+.tag-entry:has(.entry-cover) .entry-header h2,
+.tag-entry:has(.entry-cover) .entry-header h1 {
+  color: #ffffff !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) !important;
+  margin: 0 !important;
+}
+
+.tag-entry:has(.entry-cover) .entry-content {
+  padding: 10px 14px !important;
+  margin: 0 20px 10px 20px !important;
+}
+
+.tag-entry:has(.entry-cover) .entry-content p {
+  color: rgba(255, 255, 255, 0.92) !important;
+  margin: 0 !important;
+  overflow: hidden !important;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-line-clamp: 3 !important;
+}
+
+.tag-entry:has(.entry-cover) .entry-footer {
+  padding: 8px 14px !important;
+  color: rgba(255, 255, 255, 0.88) !important;
+  margin: 0 20px 20px 20px !important;
+}
+
+.tag-entry:has(.entry-cover) .entry-link {
+  z-index: 3 !important;
+}
+
+/* 首页文章卡片 - 仅当有封面时，才用封面全屏样式 */
+.post-entry:has(.entry-cover):not(.tag-entry) {
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px;
+  padding: 0 !important;
+  margin-bottom: 16px !important;
+  background: transparent;
+  border: none;
+
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .entry-link {
+    z-index: 3 !important;
+  }
+
+  .entry-cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+    order: 0;
+    z-index: 1;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+      border-radius: 0;
+    }
+  }
+
+  .entry-header, .entry-content, .entry-footer {
+    position: relative;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 16px;
+    display: block;
+    float: left;
+    clear: both;
+    max-width: calc(100% - 40px);
+    box-sizing: border-box;
+  }
+
+  .entry-header {
+    padding: 12px 16px;
+    margin: 20px 20px 10px 20px !important;
+
+    h2, h1 {
+      color: #ffffff;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      margin: 0 !important;
+    }
+  }
+
+  .entry-content {
+    padding: 10px 14px;
+    margin: 0 20px 10px 20px !important;
+
+    p {
+      color: rgba(255, 255, 255, 0.92);
+      margin: 0 !important;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+    }
+  }
+
+  .entry-footer {
+    padding: 8px 14px;
+    color: rgba(255, 255, 255, 0.88);
+    margin: 0 20px 20px 20px !important;
+  }
+}
+
+/* ==================== 没有封面的文章 ==================== */
+
+/* 没有封面的 tag-entry - 恢复主题默认样式 */
+.post-entry.tag-entry:not(:has(.entry-cover)) {
+  position: relative !important;
+  margin-bottom: var(--gap) !important;
+  padding: var(--gap) !important;
+  background: var(--entry) !important;
+  border-radius: var(--radius) !important;
+  border: 1px solid var(--border) !important;
+}
+
+/* 没有封面的 tag-entry 文字颜色 - 跟随主题 */
+.tag-entry:not(:has(.entry-cover)) .entry-header h2,
+.tag-entry:not(:has(.entry-cover)) .entry-header h1 {
+  color: var(--primary) !important;
+  text-shadow: none !important;
+}
+
+.tag-entry:not(:has(.entry-cover)) .entry-content p {
+  color: var(--secondary) !important;
+  -webkit-line-clamp: 2 !important;
+}
+
+.tag-entry:not(:has(.entry-cover)) .entry-footer {
+  color: var(--secondary) !important;
+}
+
+.tag-entry:not(:has(.entry-cover)) .entry-header,
+.tag-entry:not(:has(.entry-cover)) .entry-content,
+.tag-entry:not(:has(.entry-cover)) .entry-footer {
+  position: static !important;
+  z-index: auto !important;
+  background: transparent !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+  display: block !important;
+  float: none !important;
+  clear: none !important;
+  max-width: none !important;
+  box-sizing: content-box !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* 第一篇文章稍微大一点 */
+.first-entry:has(.entry-cover) {
+  min-height: 320px;
+
+  .entry-header {
+    margin: 28px 28px 14px 28px !important;
+  }
+
+  .entry-content {
+    margin: 0 28px 14px 28px !important;
+  }
+
+  .entry-footer {
+    margin: 0 28px 28px 28px !important;
+  }
+}
+
+/* 响应式适配 */
+@media (max-width: 768px) {
+  .post-entry:has(.entry-cover),
+  .post-entry.tag-entry:has(.entry-cover) {
+    border-radius: 14px !important;
+
+    .entry-header {
+      margin: 16px 16px 10px 16px !important;
+    }
+
+    .entry-content {
+      margin: 0 16px 10px 16px !important;
+    }
+
+    .entry-footer {
+      margin: 0 16px 16px 16px !important;
+    }
+
+    .entry-header, .entry-content, .entry-footer {
+      border-radius: 14px !important;
+    }
+  }
+}

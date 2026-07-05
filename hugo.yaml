@@ -1,0 +1,172 @@
+baseURL: "https://rboyy.github.io/"
+title: RBoy Blog
+paginate: 10
+theme: PaperMod
+copyright: ©2026-2026 [Rboy Blog](https://rboyy.github.io/)  # 页脚
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+
+minify:
+  disableXML: false
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: RBoy Blog
+  description: "瑞Boy的个人Blog"
+  keywords: [RBoy,瑞Boy,Blog, Portfolio, PaperMod]
+  author: RBoy
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "2006-01-02"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: false
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+
+  comments: true
+  giscus:
+  repo: "rboyy/giscus-"
+  repoId: "R_kgDOSr_Htg"
+  category: "Announcements"
+  categoryId: "DIC_kwDOSr_Hts4C-Ihb"
+  mapping: "pathname"
+  strict: "0"
+  reactionsEnabled: "1"
+  emitMetadata: "0"
+  inputPosition: "top"
+  lightTheme: "light"
+  darkTheme: "dark"
+  lang: "zh-CN"
+  discussionTitle: "" # 按需填写，评论框上方的标题
+  discussionSubtitle: "" # 按需填写，评论框上方的副标题
+
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: ExampleSite
+    subtitle: "This is subtitle"
+    imageUrl: "<img location>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "你好，我是 RBoy \U0001F44B"
+    Content: Welcome to my blog
+
+  socialIcons:
+    - name: x
+      url: "https://x.com/"
+    - name: stackoverflow
+      url: "https://stackoverflow.com"
+    - name: "email"
+      url: "mailto:rboyblog@gmail.com"    # 邮箱联系
+    - name: "Rss"
+      url: "index.xml"     # RSS 订阅
+
+  analytics:
+    google:
+      SiteVerificationTag: "y9lPsm7f_ojqFp_GITmc2dlgZKvS4evGRASjd1PaZyk"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: false      # 🟢 改成 false，允许显示！
+    hiddenInList: false   # 首页列表不隐藏
+    hiddenInSingle: false  # 文章内页不隐藏
+  
+  
+  #editPost:
+  #  URL: "https://github.com/<path_to_repo>/content"
+  #  Text: "Suggest Changes" # edit text
+  #  appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - name: "📝 博客"
+      url: "/posts/"
+      weight: 10
+    - name: "🔍 搜索"
+      url: "/search/"
+      weight: 20
+    - name: "📂 归档"
+      url: "/archives/"
+      weight: 30
+    - name: "👤 关于"
+      url: "/about/"
+      weight: 40
+    # 👇 破坏最小，直接在最末尾追加这两项（注意缩进和上面保持完全一致）
+    - name: "🏷️ 标签"
+      url: "/tags/"
+      weight: 50
+    - name: "🗂️ 分类"
+      url: "/categories/"
+      weight: 60
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
